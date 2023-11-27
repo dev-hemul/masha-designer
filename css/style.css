@@ -56,8 +56,8 @@ header {
 }
 
 .background-image {
-    width: 1760px;
-    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 a {
