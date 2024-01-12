@@ -1,21 +1,18 @@
 @font-face {
     font-family: 'Montserrat-regular';
-    url('/fonts/'Montserrat-regular.ttf) format('truetype'),
-    font-weight: 400;
+url('/fonts/'Montserrat-regular.ttf) format('truetype'), font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat-medium';
-    url('/fonts/'Montserrat-medium.ttf) format('truetype'),
-    font-weight: 500;
+url('/fonts/'Montserrat-medium.ttf) format('truetype'), font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat-bold';
-    url('/fonts/'Montserrat-bold.ttf) format('truetype'),
-    font-weight: 700;
+url('/fonts/'Montserrat-bold.ttf) format('truetype'), font-weight: 700;
     font-style: normal;
 }
 
@@ -115,7 +112,6 @@ img {
 }
 
 
-
 .phone li a:before {
     content: "";
     width: 38px;
@@ -126,7 +122,6 @@ img {
 }
 
 
-
 h1 {
     padding: 0;
     margin: 0;
@@ -135,13 +130,21 @@ h1 {
 .promo-banner {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: rgba(242, 242, 244, 0.5);
     border-radius: 10px;
 }
 
 .promo-photo {
-    flex-grow: 1;
     order: 2;
+}
+
+@media screen and (min-width: 1024px) {
+  .promo-photo {
+      margin: 0 auto;
+    margin-top: 40px;
+    flex-direction: column;
+  }
 }
 
 .promo-text {
@@ -156,6 +159,8 @@ h1 {
     padding: 0;
     list-style: none;
 }
+
+
 
 .promo-text-list li b {
     font-weight: 500;
@@ -190,7 +195,7 @@ h1 {
 .social-container {
     background: linear-gradient(270deg, #959467 0%, rgba(217, 217, 217, 0.00) 129.81%);
     width: 240px;
-    height: 46px;
+    height: 50px;
 }
 
 .social {
@@ -239,11 +244,9 @@ footer {
     padding: 0;
     margin: 0;
     list-style: none;
-}
-
-.advantages-list li {
     flex-grow: 1;
 }
+
 
 .container-block-footer {
     display: flex;
@@ -259,15 +262,10 @@ footer {
 }
 
 .advantages-list li {
-    margin-right: 40px;
+    width: 500px;
     background-image: url("../img/line.png");
     background-color: rgba(140, 135, 70, 0.8);
     border-radius: 15px;
-    width: 550px;
-}
-
-.advantages-list li:last-child {
-    margin-right: 0;
 }
 
 .advantages-list li p {
