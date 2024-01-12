@@ -139,7 +139,7 @@ h1 {
     order: 2;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 480px) {
   .promo-photo {
       margin: 0 auto;
     margin-top: 40px;
@@ -159,8 +159,6 @@ h1 {
     padding: 0;
     list-style: none;
 }
-
-
 
 .promo-text-list li b {
     font-weight: 500;
@@ -254,6 +252,14 @@ footer {
     flex-direction: column;
     width: 390px;
     margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .advantages-list li {
+      margin: 0 auto;
+    margin-top: 40px;
+    flex-direction: column;
+  }
 }
 
 .container-block-footer span {
