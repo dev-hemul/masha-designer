@@ -139,7 +139,7 @@ h1 {
     order: 2;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .promo-photo {
       margin: 0 auto;
     margin-top: 40px;
@@ -254,7 +254,7 @@ footer {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .advantages-list li {
       margin: 0 auto;
     margin-top: 40px;
