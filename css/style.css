@@ -85,15 +85,17 @@ img {
 .navigation-list {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     width: 819px;
     margin: 0;
     margin-top: 30px;
-
     padding: 0;
     list-style: none;
     flex-wrap: nowrap;
     align-items: center;
+}
+
+.navigation-list li {
+    flex-grow: 2;
 }
 
 .phone {
@@ -138,10 +140,12 @@ h1 {
 }
 
 .promo-photo {
+    flex-grow: 1;
     order: 2;
 }
 
 .promo-text {
+    flex-grow: 1;
     width: 1000px;
     margin-top: 50px;
     margin-left: 140px;
@@ -231,9 +235,14 @@ footer {
 .advantages-list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+.advantages-list li {
+    flex-grow: 1;
 }
 
 .container-block-footer {
